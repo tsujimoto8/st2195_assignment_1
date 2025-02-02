@@ -1,0 +1,17 @@
+---
+title: "R code to print integers"
+author: "tsujimoto8"
+date: "2 February 2025"
+output:
+  html_document:
+    df_print: paged
+---
+
+The R code below prints all
+integers between 1 and 10 (including 1 and 10).
+
+```{r arithmetic}
+for (i in 1:10) {
+  print(i)
+}
+```
